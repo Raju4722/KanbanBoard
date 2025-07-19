@@ -43,26 +43,22 @@ nav{
   width: 5rem;
   height: 2.5rem;
 }
-
-
-#inputpage{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    /* display: flex; */
-    display: none;
-    align-items: center;
-    justify-content: center;
-    /* background-color: black; */
-    
-    
+.navicons{
+    width: 2rem;
+    height: 2rem;
 }
+
+
+ 
 #inputcontainer{
+    position: absolute;
     height: 60vh;
     width: 45vw;
-    background-color: bisque;
-    display: flex;
+    top: 30%;
+    left: 30%;
+    background-color:cadetblue;
+    display: none;
+    border: 2px solid black;
 }
 #inputbox{
     width: 35vw;
@@ -86,7 +82,7 @@ nav{
     text-decoration: none;
     border: none;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
    overflow-block: clip;
     outline: none;
     color: black;
@@ -110,5 +106,9 @@ main{
 .token{
     height: 15rem;
     width: 15rem;
-    background-color: aqua;
+    background-color: bisque;
+}
+.tokenprioroty{
+    height: 2rem;
+    width: 15rem;
 }
